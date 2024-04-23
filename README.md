@@ -71,6 +71,6 @@ Ensure you have `kubectl` configured with the appropriate context to manage your
 
 ### **Conclusion**
 
-This guide provides the essential steps for verifying the installation of the Aqua Enforcer across different environments using simple command-line commands. Each command returns 'true' if the expected condition is met and 'false' if it is not, making it easy for beginners to understand and confirm the setup of their Aqua Security deployment.
+This guide provides the basic steps for verifying the installation of the Aqua Enforcer across different environments using simple command-line commands. Each command returns 'true' if the expected condition is met and 'false' if it is not, making it easy for beginners to understand and confirm the setup of their Aqua Security deployment.
 
-Feel free to refer back to this guide whenever you need to check the status of your Aqua Enforcer installations.
+Always refer to [the official AquaSecurity documentation](https://docs.aquasec.com/saas/) for the most up to date information
