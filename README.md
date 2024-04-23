@@ -56,6 +56,8 @@ You'll need root or sudo privileges to perform these checks on a Linux system.
      ```bash
      [ -f /opt/aquasec/tmp/aquasec.log ] && echo true || echo false
      ```
+![image](https://github.com/allthingsclowd/Aqua-Enforcer-Validation/assets/9472095/b96348c3-e42c-4f28-832e-8c70ecb03779)
+
 
 ### **Kubernetes Verification**
 
