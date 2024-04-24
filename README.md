@@ -1,3 +1,23 @@
+#### **Update 24/4/24 - Customer Service Architect Recommendations (what's used in reality)**
+
+1. **Check for Enforcer Process**:
+   - Use the following command to check for running Aqua Enforcer process
+  
+     ```bash
+     ps -ef | grep -i "slkd" | grep -v grep && echo "True" || echo "False"
+
+     ```
+2. **Check for Enforcer Installation on Host**:
+   - the presence of this non-empty folder `/opt/aquasec` on the host would shows that an enforcer was running at some point (it may be stopped but not uninstalled)
+  
+     ```bash
+     [ -d "/opt/aquasec" ] && [ "$(ls -A /opt/aquasec)" ] && echo "True" || echo "False"
+
+     ```
+
+#### **Update 24/4/24 - Customer Service Architect Recommendations End**
+
+
 ## How-To Guide: Verifying Aqua Enforcer Installation for Beginners
 
 Welcome to this beginner-friendly guide on verifying the presence and operational status of the Aqua Enforcer in Windows, Linux, and Kubernetes environments. If you're new to Aqua Security, this guide will help you use simple command-line instructions to check whether the Aqua Enforcer is installed and running correctly.
@@ -76,3 +96,4 @@ Ensure you have `kubectl` configured with the appropriate context to manage your
 This guide provides the basic steps for verifying the installation of the Aqua Enforcer across different environments using simple command-line commands. Each command returns 'true' if the expected condition is met and 'false' if it is not, making it easy for beginners to understand and confirm the setup of their Aqua Security deployment.
 
 Always refer to [the official AquaSecurity documentation](https://docs.aquasec.com/saas/) for the most up to date information
+
