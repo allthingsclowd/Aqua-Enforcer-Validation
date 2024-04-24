@@ -1,4 +1,7 @@
-#### **Update 24/4/24 - Customer Service Architect Recommendations (what's used in reality)**
+## How-To Guide: Verifying Aqua Enforcer Installation for Beginners
+
+
+### **Update 24/4/24 - Customer Service Architect Recommendations (what's used in reality)**
 
 1. **Check for Enforcer Process**:
    - Use the following command to check for running Aqua Enforcer process
@@ -15,10 +18,10 @@
 
      ```
 
-#### **Update 24/4/24 - Customer Service Architect Recommendations End**
+### **Update 24/4/24 - Customer Service Architect Recommendations End**
 
 
-## How-To Guide: Verifying Aqua Enforcer Installation for Beginners
+
 
 Welcome to this beginner-friendly guide on verifying the presence and operational status of the Aqua Enforcer in Windows, Linux, and Kubernetes environments. If you're new to Aqua Security, this guide will help you use simple command-line instructions to check whether the Aqua Enforcer is installed and running correctly.
 
